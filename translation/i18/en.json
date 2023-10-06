@@ -1,8 +1,19 @@
 {
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "project": "Project",
+        "team": "Team",
+        "faqs": "FAQs",
+        "testimonial": "Testimonial",
+        "contact": "Contact"
+    },
+
     "home": {
-      "title": "Solar Energy",
-      "text_1": "Innovative Solar Solution For Home",
-      "text_2": "Let The Sun Work For Your Home",
-      "contact_href": "Get A Quote"
+        "title": "Solar Energy",
+        "text_1": "Innovative Solar Solution For Home",
+        "text_2": "Let The Sun Work For Your Home",
+        "contact_href": "Get A Quote"
     }
 }
