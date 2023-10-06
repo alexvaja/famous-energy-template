@@ -1,10 +1,8 @@
 {
     "home": {
       "title": "Solar Energy",
-      "title1": "Innovative Solar Solution For Home",
-      "title2": "Get A Quote",
-      "title3": "Solar Energy",
-      "title4": "Let The Sun Work For Your Home",
-      "title5": "Get A Quote"
+      "text_1": "Innovative Solar Solution For Home",
+      "text_2": "Let The Sun Work For Your Home",
+      "contact_href": "Get A Quote"
     }
 }
