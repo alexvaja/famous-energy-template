@@ -33,6 +33,21 @@
         "product_description_3": "= Produs 3 ="
     },
 
+    "faqs": {
+        "title": "Intrebari",
+        "sub_title": "Informatii utile",
+        "left_title": "De ce sa iti montezi panouri solare?",
+        "left_1": "Economiile facute",
+        "left_2": "Creste valoarea imobilului",
+        "left_3": "Panourile produc energie oriunde",   
+        "left_4": "Reduce emisiile de carbon",
+        "right_title": "De ce ne-ai alege?",
+        "right_1": "Documentatie tehnica si Proiectare",
+        "right_2": "Consultanta pe toata durata proiectului",
+        "right_3": "Furnizare si Instalare Sisteme Fotovoltaice",
+        "right_4": "Mentenanta si Garantie",
+        "button": "Ofertare"
+    },
 
 
     "modal": {

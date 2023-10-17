@@ -34,6 +34,21 @@
 
     },
 
+    "faqs": {
+        "title": "FAQS",
+        "sub_title": "You Should Know",
+        "left_title": "Why Switch to Solar?",
+        "left_1": "Cost Savings",
+        "left_2": "Increased Home Value",
+        "left_3": "Solar Works Everywhere",   
+        "left_4": "Environmental",
+        "right_title": "Why Choose Us?",
+        "right_1": "Technical documentation and design",
+        "right_2": "Consulting throughout the project",
+        "right_3": "Supply and Installation of Photovoltaic Systems",
+        "right_4": "Maintenance and Warranty",
+        "button": "Get A Quote"
+    },
 
 
     "modal": {
