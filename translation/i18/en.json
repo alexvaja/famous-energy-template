@@ -1,0 +1,58 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "project": "Project",
+        "team": "Team",
+        "faqs": "FAQs",
+        "testimonial": "Testimonial",
+        "contact": "Contact"
+    },
+
+    "home": {
+        "title": "Solar Energy",
+        "text_1": "Innovative Solar Solution For Home",
+        "text_2": "Let The Sun Work For Your Home",
+        "contact_href": "Get A Quote"
+    },
+
+    "about": {
+        "title": "About Us",
+        "sub_title_1": "25+ Years Experience",
+        "sub_title_2": " In Solar Power Industry",
+        "description": "Our team has rich experience in the field, finding the best solutions for each client. Our mission is to offer the best quality services to our clients, being very attentive to the smallest details and providing professional technical consultancy, design and installation. Thus, our clients are satisfied with the product and services offered by us.",
+        "button": "Read More"
+    },
+
+    "service": {
+        "title": "Services",
+        "sub_title": "What We Cover",
+        "product_description_1": "= Product 1 =",
+        "product_description_2": "= Product 2 =",
+        "product_description_3": "= Product 3 ="
+
+    },
+
+    "faqs": {
+        "title": "FAQS",
+        "sub_title": "You Should Know",
+        "left_title": "Why Switch to Solar?",
+        "left_1": "Cost Savings",
+        "left_2": "Increased Home Value",
+        "left_3": "Solar Works Everywhere",   
+        "left_4": "Environmental",
+        "right_title": "Why Choose Us?",
+        "right_1": "Technical documentation and design",
+        "right_2": "Consulting throughout the project",
+        "right_3": "Supply and Installation of Photovoltaic Systems",
+        "right_4": "Maintenance and Warranty",
+        "button": "Get A Quote"
+    },
+
+
+    "modal": {
+        "title": "About Our Company",
+        "description": "Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good. Word of mouth: There are five fingers on one hand and they don't all look alike. Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good. Word of mouth: There are five fingers on one hand and they don't all look alike."
+    }
+}

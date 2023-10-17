@@ -1,0 +1,57 @@
+{    
+    "navbar": {
+        "home": "Acasa",
+        "about": "Despre",
+        "service": "Servicii",
+        "project": "Proiecte",
+        "team": "Echipa",
+        "faqs": "Intrebari",
+        "testimonial": "Testimoniale",
+        "contact": "Contact"
+    },
+
+    "home": {
+        "title": "Energie Solara",
+        "text_1": "Solutie solara inovatoare pentru casa",
+        "text_2": "Lasa soarele sa lucreze pentru casa ta",
+        "contact_href": "Ofertare"
+    },
+
+    "about": {
+        "title": "Despre noi",
+        "sub_title_1": "25+ Ani de Experienta",
+        "sub_title_2": " In Industria Panourilor Solare",
+        "description": "Echipa noastra are o experienta bogata in domeniu, gasind cele mai bune solutii pentru fiecare client. Misiunea noastra este de a oferi servicii de cea mai buna calitate clientilor nostri, fiind foarte atenti la cele mai mici detalii si acordand consultanta tehnica, proiectare si instalare profesioniste. Astfel, clientii nostri sunt multumiti de produsul si serviciile oferite de noi.",
+        "button": "Deschide"
+    },
+
+    "service": {
+        "title": "Servicii",
+        "sub_title": "Produsele noastre",
+        "product_description_1": "= Produs 1 =",
+        "product_description_2": "= Produs 2 =",
+        "product_description_3": "= Produs 3 ="
+    },
+
+    "faqs": {
+        "title": "Intrebari",
+        "sub_title": "Informatii utile",
+        "left_title": "De ce sa iti montezi panouri solare?",
+        "left_1": "Economiile facute",
+        "left_2": "Creste valoarea imobilului",
+        "left_3": "Panourile produc energie oriunde",   
+        "left_4": "Reduce emisiile de carbon",
+        "right_title": "De ce ne-ai alege?",
+        "right_1": "Documentatie tehnica si Proiectare",
+        "right_2": "Consultanta pe toata durata proiectului",
+        "right_3": "Furnizare si Instalare Sisteme Fotovoltaice",
+        "right_4": "Mentenanta si Garantie",
+        "button": "Ofertare"
+    },
+
+
+    "modal": {
+        "title": "Despre compania noastra",
+        "description": "Era odată o capră care avea trei iezi. Iedul cel mare și cu cel mijlociu dau prin băț de obraznici ce erau; iară cel mic era harnic și cuminte. Vorba ceea : Sunt cinci degete la o mână și nu samănă toate unul cu altul. Era odată o capră care avea trei iezi. Iedul cel mare și cu cel mijlociu dau prin băț de obraznici ce erau; iară cel mic era harnic și cuminte. Vorba ceea : Sunt cinci degete la o mână și nu samănă toate unul cu altul."
+    }
+}
