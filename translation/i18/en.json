@@ -25,6 +25,15 @@
         "button": "Read More"
     },
 
+    "service": {
+        "title": "Services",
+        "sub_title": "What We Cover",
+        "product_description_1": "= Product 1 =",
+        "product_description_2": "= Product 2 =",
+        "product_description_3": "= Product 3 ="
+
+    },
+
 
 
     "modal": {
