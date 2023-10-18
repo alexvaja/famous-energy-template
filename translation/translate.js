@@ -10,7 +10,7 @@ function updateContent() {
   async function i18Loader() {
     const langs = ["en", "ro"];
     const jsons = await Promise.all(
-      langs.map((l) => fetch("/translation/i18/" + l + ".json").then((r) => r.json()))
+      langs.map((l) => fetch("https://alexvaja.github.io/translation/i18/" + l + ".json").then((r) => r.json()))
     );
     const res = langs.reduce((acc, l, idx) => {
       acc[l] = { translation: jsons[idx] };
