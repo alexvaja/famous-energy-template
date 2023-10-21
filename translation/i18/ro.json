@@ -49,6 +49,32 @@
         "button": "Ofertare"
     },
 
+    "contact": {
+        "title": "Contact",
+        "sub_title": "Get In Touch",
+        "button": "Send Message"
+    },
+
+    "footer": {
+        "office_label": "Our Office",
+        "office": "Brasov, Romania",
+        "email_address_label": "Email Us",
+        "email_address": "FAMOUSENERGY@proton.me",
+        "phone_number_label": "Call Us",
+        "phone_number": "0720 999 999",
+        "left_text": "Era odată o capră care avea trei iezi. Iedul cel mare și cu cel mijlociu dau prin băț de obraznici ce erau; iară cel mic era harnic și cuminte.",
+        "products": "Our Products",
+        "product_1": "Product 1",
+        "product_2": "Product 2",
+        "product_3": "Product 3",
+        "product_4": "Product 4",
+        "product_5": "Product 5",
+        "newsletter": "Newsletter",
+        "right_text": "Era odată o capră care avea trei iezi. Iedul cel mare și cu cel mijlociu dau prin băț de obraznici ce erau; iară cel mic era harnic și cuminte.",
+        "sign_up": "Sign Up"
+    },
+
+
 
     "modal": {
         "title": "Despre compania noastra",
