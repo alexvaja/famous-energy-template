@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Solar - Famous Energy</title>
+    <title>Solar - Solar Energy Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -24,7 +24,6 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -38,24 +37,19 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active"><div class="i18nelement" data-i18n="navbar.home">Home</div></a>
-                <a href="#about" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.about">About</div></a>
-                <a href="#service" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.service">Service</div></a>
-                <a href="#project" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.project">Project</div></a>
-                <!--<a href="#team" class="nav-item nav-link i18nelement" data-i18n="navbar.team">Team</a>-->
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#project" class="nav-item nav-link">Project</a>
             </div>
             <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
-                <h1 class="display-4 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
+                <h1 class="display-4 text-white text-uppercase m-0">Solar</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="#faqs" class="nav-item nav-link i18nelement" data-i18n="navbar.faqs">FAQs</a>
-                <!--<a href="#testimonial" class="nav-item nav-link i18nelement" data-i18n="navbar.testimonial">Testimonial</a>-->
-                <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
-                
-                <select class="navbar-nav mr-auto py-0" id="langSelector" name="lang">
-                  <option value="en">En</option>
-                  <option value="ro">Ro</option>
-                </select>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#faqs" class="nav-item nav-link">FAQs</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -69,10 +63,10 @@
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
                     <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;"> 
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">Solar Energy</div></h4>
-                            <h3 class="display-2 font-secondary text-white mb-4"><div class="i18nelement" data-i18n="home.text_1">Innovative Solar Solution For Home</div></h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="home.contact_href">Get A Quote</div></a>
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Solar Energy</h4>
+                            <h3 class="display-2 font-secondary text-white mb-4">Innovative Solar Solution For Home</h3>
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -80,9 +74,9 @@
                     <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">Solar Energy</div></h4>
-                            <h3 class="display-2 font-secondary text-white mb-4"><div class="i18nelement" data-i18n="home.text_2">Let The Sun Work For Your Home</div></h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="home.contact_href">Get A Quote</div></a>
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Solar Energy</h4>
+                            <h3 class="display-2 font-secondary text-white mb-4">Let The Sun Work For Your Home</h3>
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -110,10 +104,10 @@
                     <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="about.title">About Us</div></h6>
-                    <h1 class="display-4 mb-3"><span class="text-primary"><div class="i18nelement" data-i18n="about.sub_title_1">25+ Years Experience</div></span><div class="i18nelement" data-i18n="about.sub_title_2"> In Solar Power Industry</div></h1>
-                    <p class="i18nelement" data-i18n="about.description">At sed est eirmod sanctus et amet diam magna. Dolore clita magna sed sed stet et, at magna rebum eirmod sanctus ut sed, stet tempor dolore rebum sit duo, dolore tempor sit est sit sanctus, sit justo sit invidunt clita ut justo diam magna. Erat eos nonumy labore dolor. Dolore kasd no et et et elitr. Erat sea dolor elitr diam sed lorem rebum et vero. </p>
-                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#exampleModalLong"><div class="i18nelement" data-i18n="about.button">Read More</div></a>
+                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About Us</h6>
+                    <h1 class="display-4 mb-3"><span class="text-primary">25+ Years Experience</span> In Solar Power Industry</h1>
+                    <p>At sed est eirmod sanctus et amet diam magna. Dolore clita magna sed sed stet et, at magna rebum eirmod sanctus ut sed, stet tempor dolore rebum sit duo, dolore tempor sit est sit sanctus, sit justo sit invidunt clita ut justo diam magna. Erat eos nonumy labore dolor. Dolore kasd no et et et elitr. Erat sea dolor elitr diam sed lorem rebum et vero. </p>
+                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#exampleModalLong">Read More</a>
                 </div>
             </div>
         </div>
@@ -125,8 +119,8 @@
     <div class="container-fluid py-5" id="service">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="service.title">Services</div></h6>
-                <h1 class="font-secondary display-4"><div class="i18nelement" data-i18n="service.sub_title">What We Cover</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Services</h6>
+                <h1 class="font-secondary display-4">What We Cover</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 mb-3">
@@ -138,7 +132,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_1">Solar System</div></h3>
+                            <h3 class="m-0">Solar System</h3>
                         </div>
                     </div>
                 </div>
@@ -151,7 +145,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_2">Wind Turbine</div></h3>
+                            <h3 class="m-0">Wind Turbine</h3>
                         </div>
                     </div>
                 </div>
@@ -164,7 +158,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_3">Wind Generator</div></h3>
+                            <h3 class="m-0">Wind Generator</h3>
                         </div>
                     </div>
                 </div>
@@ -172,7 +166,7 @@
         </div>
     </div>
     <!-- Service End -->
-    
+
 
     <!-- Gallery Start -->
     <div class="container-fluid bg-gallery" id="project" style="padding: 120px 0; margin: 90px 0;">
@@ -223,7 +217,7 @@
 
 
     <!-- Team Start -->
-    <!--<div class="container-fluid py-5" id="team">
+    <div class="container-fluid py-5" id="team">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Team</h6>
@@ -314,7 +308,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
     <!-- Team End -->
 
 
@@ -322,58 +316,30 @@
     <div class="container-fluid py-5" id="faqs">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="faqs.title">FAQs</div></h6>
-                <h1 class="display-4"><div class="i18nelement" data-i18n="faqs.sub_title">You Should Know</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">FAQs</h6>
+                <h1 class="display-4">You Should Know</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <h3 class="mb-4">
-                            <div class="i18nelement" data-i18n="faqs.left_title">Why Switch to Solar?</div>
-                        </h3>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_1">Vero dolor amet no eos ipsum erat</div>
-                        </h5>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_2">Lorem tempor tempor gubergren dolor dolor dolor</div>
-                        </h5>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_3">Nonumy tempor dolores sadipscing duo</div>
-                        </h5>
-                        <h5 class="mb-0">
-                            <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_4">Kasd dolor ea dolores ut nonumy</div>
-                        </h5>
+                        <h3 class="mb-4">Why Switch to Solar?</h3>
+                        <h5 class="mb-3"><i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>Vero dolor amet no eos ipsum erat</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>Lorem tempor tempor gubergren dolor dolor dolor</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>Nonumy tempor dolores sadipscing duo</h5>
+                        <h5 class="mb-0"><i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>Kasd dolor ea dolores ut nonumy</h5>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-left ml-md-3">
-                        <h3 class="mb-4">
-                            <div class="i18nelement" data-i18n="faqs.right_title">Why Choose Us?</div>
-                        </h3>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_1">Vero dolor amet no eos ipsum erat</div>
-                        </h5>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_2">Lorem tempor tempor gubergren dolor dolor dolor</div>
-                        </h5>
-                        <h5 class="mb-3">
-                            <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_3">Nonumy tempor dolores sadipscing duo</div>
-                        </h5>
-                        <h5 class="mb-0">
-                            <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_4">Kasd dolor ea dolores ut nonumy</div>
-                        </h5>
+                        <h3 class="mb-4">Why Choose Us?</h3>
+                        <h5 class="mb-3"><i class="fa fa-check text-success mr-2"></i>Vero dolor amet no eos ipsum erat</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-success mr-2"></i>Lorem tempor tempor gubergren dolor dolor dolor</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-success mr-2"></i>Nonumy tempor dolores sadipscing duo</h5>
+                        <h5 class="mb-0"><i class="fa fa-check text-success mr-2"></i>Kasd dolor ea dolores ut nonumy</h5>
                     </div>
                 </div>
                 <div class="col-md-12 text-center pt-3">
-                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="faqs.button">Get A Quote</div></a>
+                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="#contact">Get A Quote</a>
                 </div>
             </div>
         </div>
@@ -382,7 +348,7 @@
 
 
     <!-- Testimonial Start -->
-    <!--<div class="container-fluid py-5" id="testimonial">
+    <div class="container-fluid py-5" id="testimonial">
         <div class="container py-5">
             <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Testimonial</h6>
@@ -407,7 +373,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
     <!-- Testimonial End -->
 
 
@@ -415,8 +381,8 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="contact.title">Contact</div></h6>
-                <h1 class="font-secondary display-4"><div class="i18nelement" data-i18n="contact.sub_title">Get In Touch</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Contact</h6>
+                <h1 class="font-secondary display-4">Get In Touch</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -442,7 +408,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton"><div class="i18nelement" data-i18n="contact.sub_title">Send Message</div></button>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -460,20 +426,20 @@
                 <div class="row mb-5 p-4" style="background: rgba(256, 256, 256, .05);">
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.office_label">Our Office</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.office">Brasov, Romania</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Our Office</h5>
+                            <p class="mb-4 m-md-0">123 Street, New York, USA</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.email_address_label">Email Us</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.email_address">FAMOUSENERGY@proton.me</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Email Us</h5>
+                            <p class="mb-4 m-md-0">info@example.com</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.phone_number_label">Call Us</div></h5>
-                            <p class="m-0"><div class="i18nelement" data-i18n="footer.phone_number">0720 999 999</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Call Us</h5>
+                            <p class="m-0">+012 345 6789</p>
                         </div>
                     </div>
                 </div>
@@ -481,34 +447,34 @@
             <div class="col-lg-7 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <p><div class="i18nelement" data-i18n="footer.left_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                        <p>Et et amet ut elitr ipsum sit dolor dolor dolore. Sit accusam elitr ut diam sit rebum. Eirmod duo kasd diam vero labore sea, est et et lorem ut at erat, gubergren ipsum et ipsum elitr et rebum rebum</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a> <!-- TODO -->
-                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a> <!-- TODO -->
-                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a> <!-- TODO -->
-                            <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a> <!-- TODO -->
+                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.products">Our Products</div></h5>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Products</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div class="i18nelement" data-i18n="footer.product_1">Product 1</div></a>
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div class="i18nelement" data-i18n="footer.product_2">Product 2</div></a>
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div class="i18nelement" data-i18n="footer.product_3">Product 3</div></a>
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div class="i18nelement" data-i18n="footer.product_4">Product 4</div></a>
-                            <a class="text-white btn-scroll" href="#service"><i class="fa fa-angle-right mr-2"></i><div class="i18nelement" data-i18n="footer.product_5">Product 5</div></a>
+                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i>Solar System</a>
+                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i>Wind Turbine</a>
+                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i>Wind Generator</a>
+                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i>Solar Energy</a>
+                            <a class="text-white btn-scroll" href="#service"><i class="fa fa-angle-right mr-2"></i>Solar Panel</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.newsletter">Newsletter</div></h5>
-                <p><div class="i18nelement" data-i18n="footer.right_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
+                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4"><div class="i18nelement" data-i18n="footer.sign_up">Sign Up</div></button>
+                            <button class="btn btn-primary px-4">Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -516,7 +482,7 @@
         </div>
     </div>
     <div class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .05) !important;">
-        <p class="m-0 text-white">&copy; <a href="#">FAMOUS ENERGY</a>. All Rights Reserved. Designed by FAMOUS ENERGY</p>
+        <p class="m-0 text-white">&copy; <a href="#">Domain Name</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
     </div>
     <!-- Footer End -->
 
@@ -527,26 +493,25 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Solar Energy System</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <img class="img-fluid mb-4" src="img/carousel-1.jpg" alt="">
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
+                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Modal -->
 
-    <script src="translation/translate.js"></script>
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
