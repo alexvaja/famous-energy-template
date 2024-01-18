@@ -50,6 +50,30 @@
         "button": "Get A Quote"
     },
 
+    "contact": {
+        "title": "Contact",
+        "sub_title": "Get In Touch",
+        "button": "Send Message"
+    },
+
+    "footer": {
+        "office_label": "Our Office",
+        "office": "Brasov, Romania",
+        "email_address_label": "Email Us",
+        "email_address": "FAMOUSENERGY@proton.me",
+        "phone_number_label": "Call Us",
+        "phone_number": "0720 999 999",
+        "left_text": "Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.",
+        "products": "Our Products",
+        "product_1": "Product 1",
+        "product_2": "Product 2",
+        "product_3": "Product 3",
+        "product_4": "Product 4",
+        "product_5": "Product 5",
+        "newsletter": "Newsletter",
+        "right_text": "Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.",
+        "sign_up": "Sign Up"
+    },
 
     "modal": {
         "title": "About Our Company",
