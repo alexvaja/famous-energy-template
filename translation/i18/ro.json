@@ -28,9 +28,9 @@
     "service": {
         "title": "Servicii",
         "sub_title": "Produsele noastre",
-        "product_description_1": "= Produs 1 =",
-        "product_description_2": "= Produs 2 =",
-        "product_description_3": "= Produs 3 ="
+        "product_description_1": "Panouri solare",
+        "product_description_2": "Eoliene domestice",
+        "product_description_3": "Magazin online"
     },
 
     "faqs": {
