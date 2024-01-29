@@ -33,6 +33,10 @@
         "product_description_3": "Marketplace"
     },
 
+    "gallery": {
+        "button": "Marketplace"
+    },
+
     "faqs": {
         "title": "FAQS",
         "sub_title": "You Should Know",

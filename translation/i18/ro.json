@@ -33,6 +33,10 @@
         "product_description_3": "Magazin online"
     },
 
+    "gallery": {
+        "button": "Acceseaza magazinul"
+    },
+
     "faqs": {
         "title": "Intrebari",
         "sub_title": "Informatii utile",
