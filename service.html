@@ -19,7 +19,8 @@
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -28,6 +29,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+
+    <!-- Explicitly for service.html page -->
+    <link href="css/shoppingCart.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -58,8 +62,11 @@
                   <option value="ro">Ro</option>
                 </select>
                 
-                <div class="cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                <div class="menu--icons cart-icon">
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>0</span>
+                    </div>
                 </div>
             </div>
 
@@ -74,20 +81,24 @@
                 <!--<h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Produsele noastre le puteti gasi in continuare si in magazinul online</h6>-->
                 <h1 class="font-secondary display-4">Produsele noastre</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-4 mb-3">
+            <div class="row card--list">       <!-- card--list Start -->
+                
+                <div class="col-lg-4 mb-3 card">
                     <div class="product-item mb-2">
                         <div class="product-img">
                             <img class="img-fluid" src="img/shop-1.jpeg" alt="">
-                            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product1Modal">
+                            <a type="button" class="btn btn-primary add-to-cart" data-toggle="modal" data-target="#product1Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
                         </div>
-                        <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_1">Solar System</div></h3>
+                        <div class="bg-secondary text-center p-4 card--price">
+                            <h3 class="m-0 card-title"><div class="i18nelement" data-i18n="service.product_description_1">Solar System</div></h3>
+                            <h3 class="m-0 price">38 Lei</h3>
                         </div>
                     </div>
                 </div>
+                
+                
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
@@ -297,7 +308,7 @@
             
             
             
-            </div>
+            </div>  <!-- card--list End -->
         </div>
     </div>
     <!-- Service End -->
@@ -412,7 +423,32 @@
     </div>
     <!-- Footer End -->
 
+    <!-- Cart Side Start -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-close">
+            <i class="fa fa-close"></i>
+        </div>
+        
+        <div class="cart-menu">
+            <h3>My Cart</h3>
+            <div class="cart-items"></div>
+        </div>
+
+        <div class="sidebar--footer">
+            <div class="total--amount">
+                <h5>Total</h5>
+                <div class="cart-total">$0.00</div>
+            </div>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+        
+
+    </div>
+    <!-- Cart Side End -->
+
+
     <script src="translation/translate.js"></script>
+    <script src="js/shoppingCart.js"></script>
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
