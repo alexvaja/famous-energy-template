@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartItemCount = document.querySelector('.cart-icon span');
     const cartItemsList = document.querySelector('.cart-items');
     const cartTotal = document.querySelector('.cart-total');
-    const cartIcon = document.querySelector('.cart-icon');
-    const sidebar = document.querySelector('#sidebar');
+    
+    const sidebar = document.querySelector('.sidebar');
     
     let cartItems = [];
     let totalAmount = 0;
@@ -79,7 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
             cartTotal.textContent = `${totalAmount.toFixed(2)} Lei`;
         }
 
+        const cartIcon = document.querySelector('.cart-icon');
         cartIcon.addEventListener('click', () => {
+            debugger; 
             sidebar.classList.toggle('open');
         });
 
