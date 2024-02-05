@@ -15,7 +15,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "contact.php",
+                url: "https://alexvaja.github.io/famous-energy-template/mail/contact.php",
                 type: "POST",
                 data: {
                     name: name,
