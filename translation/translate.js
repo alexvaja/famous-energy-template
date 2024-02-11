@@ -18,7 +18,7 @@ function updateContent() {
       return acc;
     }, {});
     await i18next.init({
-      lng: "en",
+      lng: "ro",
       debug: true,
       resources: res
     });

@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = {
                 name: document.querySelectorAll('.card .card-title')[index].textContent,
                 price: parseFloat(
-                    document.querySelectorAll('.price') [index].textContent.slice(1),
+                    document.querySelectorAll('.price') [index].textContent.slice(0),
                 ),
                 quantity: 1,
             };
+
+            //debugger;
 
             const exisitingItem = cartItems.find(
                 (cartItem) => cartItem.name === item.name,
@@ -81,7 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const cartIcon = document.querySelector('.cart-icon');
         cartIcon.addEventListener('click', () => {
-            debugger; 
+            
+            //debugger; 
+            //const sidebar = document.querySelector('.sidebar');
             sidebar.classList.toggle('open');
         });
 
