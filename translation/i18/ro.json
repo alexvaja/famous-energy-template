@@ -29,9 +29,12 @@
     "service": {
         "title": "Servicii",
         "sub_title": "Produsele noastre",
-        "product_description_1": "Panouri solare",
-        "product_description_2": "Eoliene domestice",
-        "product_description_3": "Magazin online"
+        "product_description_1": "Consultanta/Proiectarea Parcuri Eoliene",
+        "product_description_2": "Solutii Eoliene Industriale",
+        "product_description_3": "Solutii Eoliene Domestice",
+        "product_description_4": "Consultanta/Proiectarea Parcuri Fotovoltaice",
+        "product_description_5": "Solutii Solare Industriale",
+        "product_description_6": "Solutii Solare Domestice"
     },
 
     "gallery": {
