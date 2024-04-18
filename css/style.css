@@ -9525,9 +9525,9 @@ h4, h5, h6 {
   }
 }
 
-.navbar-dark {
+/*.navbar-dark {
   display: none;
-}
+}*/
 
 .navbar-dark .navbar-nav .nav-link {
   padding: 25px 10px;
