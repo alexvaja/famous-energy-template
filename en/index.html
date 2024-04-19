@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <!-- <title>Solar - Famous Energy</title> -->
-    <title>Soare - Famous Energy</title>
+    <title>EN Soare - Famous Energy</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,11 +20,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
 </head>
 
@@ -45,7 +45,7 @@
                 <a href="#project" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.project">Project</div></a>
                 <!--<a href="#team" class="nav-item nav-link i18nelement" data-i18n="navbar.team">Team</a>-->
             </div>
-            <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
+            <a href="/index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
                 <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
                 <h1 class="display-5 text-white text-uppercase m-0">LIVE STREAM</h1>
             </a>
@@ -55,7 +55,7 @@
                 <!--<a href="#testimonial" class="nav-item nav-link i18nelement" data-i18n="navbar.testimonial">Testimonial</a>-->
                 <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
                 
-                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang">
+                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="jsFunction(this.value);">
                   <option value="ro">Ro</option>
                   <option value="en">En</option>
                 </select>
@@ -65,13 +65,28 @@
     </nav>
     <!-- Navbar End -->
 
+    <script type="text/javascript">
+        function jsFunction(value) {
+            if (value == 'Ro') {
+                location.replace("/ro/index.html");
+                const langSelector = document.getElementById("langSelector");
+                langSelector.innerHTML = 'Ro';
+
+            } else {
+                location.replace("/en/index.html");
+                const langSelector = document.getElementById("langSelector");
+                langSelector.innerHTML = 'En';
+            }
+        }
+    </script>
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5 pb-5" id="home" name="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="/img/carousel-1.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;"> 
                             <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
@@ -81,7 +96,7 @@
                     </div>
                 </div>
                 <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="/img/carousel-2.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
@@ -92,7 +107,7 @@
                 </div>
 
                 <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-3.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="/img/carousel-3.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
@@ -122,7 +137,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                    <img class="img-fluid mb-4 mb-lg-0" src="/img/about.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="about.title">About Us</div></h6>
@@ -148,7 +163,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/tuv-rheinland-offshore - Copy.png" alt="">
+                            <img class="img-fluid" src="/img/tuv-rheinland-offshore - Copy.png" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product1Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -161,7 +176,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/eolian_6_preview.jpg" alt="">
+                            <img class="img-fluid" src="/img/eolian_6_preview.jpg" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product2Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -174,7 +189,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/product-2.jpg" alt="">
+                            <img class="img-fluid" src="/img/product-2.jpg" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product3Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -192,7 +207,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/photovoltaic_park_2_preview.jpg" alt="">
+                            <img class="img-fluid" src="/img/photovoltaic_park_2_preview.jpg" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product4Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -205,7 +220,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/photovoltaic_park_1 - Copy.jpg" alt="">
+                            <img class="img-fluid" src="/img/photovoltaic_park_1 - Copy.jpg" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product5Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -218,7 +233,7 @@
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
-                            <img class="img-fluid" src="img/gallery-1.jpg" alt="">
+                            <img class="img-fluid" src="/img/gallery-1.jpg" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#product6Modal">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -241,92 +256,92 @@
         </div>
         <div class="owl-carousel gallery-carousel">
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-1.jpeg" alt="">
-                <a class="btn btn-primary" href="img/shop-1.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-1.jpeg" alt="">
+                <a class="btn btn-primary" href="/img/shop-1.jpeg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-2.jpeg" alt="">
-                <a class="btn btn-primary" href="img/shop-2.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-2.jpeg" alt="">
+                <a class="btn btn-primary" href="/img/shop-2.jpeg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-3.jpeg" alt="">
-                <a class="btn btn-primary" href="img/shop-3.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-3.jpeg" alt="">
+                <a class="btn btn-primary" href="/img/shop-3.jpeg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-4.jpeg" alt="">
-                <a class="btn btn-primary" href="img/shop-4.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-4.jpeg" alt="">
+                <a class="btn btn-primary" href="/img/shop-4.jpeg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-5.png" alt="">
-                <a class="btn btn-primary" href="img/shop-5.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-5.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-5.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-6.png" alt="">
-                <a class="btn btn-primary" href="img/shop-6.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-6.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-6.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-7.png" alt="">
-                <a class="btn btn-primary" href="img/shop-7.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-7.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-7.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-8.png" alt="">
-                <a class="btn btn-primary" href="img/shop-8.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-8.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-8.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-9.png" alt="">
-                <a class="btn btn-primary" href="img/shop-9.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-9.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-9.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-10.png" alt="">
-                <a class="btn btn-primary" href="img/shop-10.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-10.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-10.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-11.png" alt="">
-                <a class="btn btn-primary" href="img/shop-11.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-11.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-11.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-12.png" alt="">
-                <a class="btn btn-primary" href="img/shop-12.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-12.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-12.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-13.png" alt="">
-                <a class="btn btn-primary" href="img/shop-13.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-13.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-13.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-14.png" alt="">
-                <a class="btn btn-primary" href="img/shop-14.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-14.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-14.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/shop-15.png" alt="">
-                <a class="btn btn-primary" href="img/shop-15.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/img/shop-15.png" alt="">
+                <a class="btn btn-primary" href="/img/shop-15.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
@@ -363,7 +378,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="/img/team-1.jpg" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -372,7 +387,7 @@
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
                         <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="/img/team-2.jpg" style="object-fit: cover;">
                         </div>
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
@@ -405,7 +420,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="/img/team-3.jpg" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -414,7 +429,7 @@
                 <div class="col-lg-6 p-0">
                     <div class="row m-0">
                         <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="/img/team-4.jpg" style="object-fit: cover;">
                         </div>
                         <div class="col-sm-6 p-0 text-center">
                             <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
@@ -519,13 +534,13 @@
                 <div class="col-lg-8">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="text-center">
-                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 100px;">
+                            <img class="img-fluid mx-auto mb-3" src="/img/testimonial-1.jpg" style="width: 100px;">
                             <p style="font-size: 22px;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                             <h4>Client Name</h4>
                             <span>Profession</span>
                         </div>
                         <div class="text-center">
-                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 100px;">
+                            <img class="img-fluid mx-auto mb-3" src="/img/testimonial-2.jpg" style="width: 100px;">
                             <p style="font-size: 22px;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
                             <h4>Client Name</h4>
                             <span>Profession</span>
@@ -661,7 +676,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/carousel-1.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/carousel-1.jpg" alt="">
                     <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
                     <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
                     <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
@@ -685,7 +700,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/carousel-1.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/carousel-1.jpg" alt="">
                     <!--<p><div class="i18nelement" data-i18n="modal.description"></div></p>-->
                     <p><b>FAMOUS ENERGY LIVE STREAM</b></p>
 
@@ -784,7 +799,7 @@
 
                     <p style="text-indent: 30px;">Compania noastra a oferit consultanta si s-a specializata pe proiectarea si derularea proiectelor mari putand sa ofere parcuri fotovoltaice
                         la cheie de diferite puteri instale.</p>
-                    <img class="img-fluid mb-4" src="img/eolian_1.JPG" alt="">
+                    <img class="img-fluid mb-4" src="/img/eolian_1.JPG" alt="">
 
 
                     <p style="text-indent: 30px;">Va putem oferi urmatoarele servicii de consultanta pentru proiectul dumneavoastra:</p>
@@ -795,7 +810,7 @@
                             energetice precum si vanzarea energiei produse</li>
                     </ul>
 
-                    <img class="img-fluid mb-4" src="img/eolian_4.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/eolian_4.jpg" alt="">
                     
                     <p style="text-indent: 30px;">In cadrul proiectelor noastre de implementare a capacitatilor de energie regenerabila si in calitate de Manager al proiectelor de energie
                         regenerabila, am inteprins:</p>
@@ -841,7 +856,7 @@
 
 
 
-                    <img class="img-fluid mb-4" src="img/5.01.2010-6.JPG" alt="">
+                    <img class="img-fluid mb-4" src="/img/5.01.2010-6.JPG" alt="">
                     <p><b>Ce ofera FAMOUS ENERGY LIVE STREAM?</b></p>
                     <ul>
                         <li>Calitate superioară: Ne angajăm să aducem pe piață doar echipamente de cea mai înaltă calitate. 
@@ -857,7 +872,7 @@
                             de carbon și la susținerea unui viitor mai sustenabil.</li>
                     </ul>
 
-                    <img class="img-fluid mb-4" src="img/DSC01330.JPG" alt="">
+                    <img class="img-fluid mb-4" src="/img/DSC01330.JPG" alt="">
                 </div>
             </div>
         </div>
@@ -876,7 +891,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/home-wind-turbine-size-types-speed-maintenance-1024x576.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/home-wind-turbine-size-types-speed-maintenance-1024x576.jpg" alt="">
                     <p style="text-indent: 30px;">De ce eoliane domestice FAMOUS ENERGY LIVE STREAM?</p>
 
                     <ul>
@@ -910,7 +925,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/photovoltaic_park_1.webp" alt="">
+                    <img class="img-fluid mb-4" src="/img/photovoltaic_park_1.webp" alt="">
                     <p><b>De ce sa alegeti serviciile de consultanta FAMOUS ENERGY LIVE STREAM?</b></p>
 
                     <p style="text-indent: 30px;">Compania noastra a oferit consultanta si s-a specializata pe proiectarea si derularea proiectelor mari putand sa ofere parcuri fotovoltaice
@@ -924,7 +939,7 @@
                             energetice precum si vanzarea energiei produse</li>
                     </ul>
 
-                    <img class="img-fluid mb-4" src="img/photovoltaic_park_2.webp" alt="">
+                    <img class="img-fluid mb-4" src="/img/photovoltaic_park_2.webp" alt="">
                     
                     <p style="text-indent: 30px;">In cadrul proiectelor noastre de implementare a capacitatilor de energie regenerabila si in calitate de Manager al proiectelor de energie
                         regenerabila, am inteprins:</p>
@@ -963,7 +978,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/photovoltaic_park_3.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/photovoltaic_park_3.jpg" alt="">
                     <p><b>De ce fotovoltaice FAMOUS ENERGY LIVE STREAM?</b></p>
 
                     <ul>
@@ -980,7 +995,7 @@
                             de carbon și la susținerea unui viitor mai sustenabil.</li>
                     </ul>
                     
-                    <img class="img-fluid mb-4" src="img/carousel-2.jpg" alt="">
+                    <img class="img-fluid mb-4" src="/img/carousel-2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -999,7 +1014,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid mb-4" src="img/sistem-fotovoltaic-off-grid-hybrid-poweracu-8-1kwp-cu-invertor-7-2kw-si-stocare-litiu-17-6kwh-sistem-prindere-tabla-841056.webp" alt="">
+                    <img class="img-fluid mb-4" src="/img/sistem-fotovoltaic-off-grid-hybrid-poweracu-8-1kwp-cu-invertor-7-2kw-si-stocare-litiu-17-6kwh-sistem-prindere-tabla-841056.webp" alt="">
                     <p><b>De ce fotovoltaice domestice FAMOUS ENERGY LIVE STREAM?</b></p>
 
                     <ul>
@@ -1021,7 +1036,7 @@
     </div>
     <!-- Product 6 Modal -->
 
-    <script src="translation/translate.js"></script>
+    <script src="/translation/translate.js"></script>
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
@@ -1033,18 +1048,18 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="/lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
