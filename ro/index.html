@@ -10,7 +10,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="/img/favicon.ico" rel="icon">
+    <link href="/img/climate_forecast_weather_summer_windy_wind_sun_icon_226621.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,6 +26,8 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+
+    
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -67,9 +69,12 @@
 
     <script type="text/javascript">
         function jsFunction(value) {
-            if (value == 'Ro') {
+            console.log("VALUE: " + value);
+            if (value == 'ro') {
+                console.log("RO");
                 location.replace("/ro/index.html")
             } else {
+                console.log("EN");
                 location.replace("/en/index.html")
             }
         }

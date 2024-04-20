@@ -10,7 +10,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="/img/favicon.ico" rel="icon">
+    <link href="/img/climate_forecast_weather_summer_windy_wind_sun_icon_226621.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -56,8 +56,8 @@
                 <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
                 
                 <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="jsFunction(this.value);">
-                  <option value="ro">Ro</option>
-                  <option value="en">En</option>
+                    <option value="en">En</option>
+                    <option value="ro">Ro</option>
                 </select>
                 
             </div>
@@ -67,12 +67,15 @@
 
     <script type="text/javascript">
         function jsFunction(value) {
-            if (value == 'Ro') {
+            console.log("VALUE: " + value);
+            if (value == 'ro') {
+                console.log("RO");
                 location.replace("/ro/index.html");
                 const langSelector = document.getElementById("langSelector");
                 langSelector.innerHTML = 'Ro';
 
             } else {
+                console.log("EN");
                 location.replace("/en/index.html");
                 const langSelector = document.getElementById("langSelector");
                 langSelector.innerHTML = 'En';
