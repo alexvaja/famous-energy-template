@@ -14,6 +14,14 @@ $(function () {
             $this = $("#sendMessageButton");
             $this.prop("disabled", true);
 
+            Email.send({
+                SecureToken : "703dda21-2424-4b03-8d95-a6d95b741e08",
+                To : 'alexandru.vaja@gmail.com',
+                From : "alexandru.vaja@gmail.com",
+                Subject : subject,
+                Body : name + email + subject + message
+            });
+
             $.ajax({
                 url: "contact.php",
                 type: "POST",
