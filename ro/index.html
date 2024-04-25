@@ -30,12 +30,7 @@
     <link href="/css/style.css" rel="stylesheet">
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
 
-
-
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-
-    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -49,11 +44,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active"><div class="i18nelement" data-i18n="navbar.home">Home</div></a>
-                <a href="#about" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.about">About</div></a>
-                <a href="#service" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.service">Service</div></a>
-                <a href="#project" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.project">Project</div></a>
-                <!--<a href="#team" class="nav-item nav-link i18nelement" data-i18n="navbar.team">Team</a>-->
+                <a href="#home" class="nav-item nav-link active">Acasa</a>
+                <a href="#about" class="nav-item nav-link">Despre</a>
+                <a href="#service" class="nav-item nav-link">Servicii</a>
+                <a href="#project" class="nav-item nav-link">Produse</a>
             </div>
             <a href="/index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
                 <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
@@ -61,9 +55,8 @@
             </a>
             <div class="navbar-nav mr-auto py-0">
                 
-                <a href="#faqs" class="nav-item nav-link i18nelement" data-i18n="navbar.faqs">FAQs</a>
-                <!--<a href="#testimonial" class="nav-item nav-link i18nelement" data-i18n="navbar.testimonial">Testimonial</a>-->
-                <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
+                <a href="#faqs" class="nav-item nav-link">Intrebari</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
                 
                 <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="jsFunction(this.value);">
                   <option value="ro">Ro</option>
@@ -75,7 +68,7 @@
     </nav>
     <!-- Navbar End -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function jsFunction(value) {
             console.log("VALUE: " + value);
             if (value == 'ro') {
@@ -86,7 +79,7 @@
                 location.replace("/en/index.html")
             }
         }
-    </script>
+    </script> -->
 
 
     <!-- Carousel Start -->
@@ -97,9 +90,9 @@
                     <img class="position-absolute w-100 h-100" src="/img/carousel-1.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;"> 
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
-                            <h3 class="display-2 font-secondary text-white mb-4"><div class="i18nelement" data-i18n="home.text_1">Innovative Solar Solution For Home</div></h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="home.contact_href">Get A Quote</div></a>
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">FAMOUS ENERGY LIVE STREAM</h4>
+                            <h3 class="display-2 font-secondary text-white mb-4">Solutii pentru parcuri solare si eoliene industriale si casnice</h3>
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Ofertare</a>
                         </div>
                     </div>
                 </div>
@@ -107,9 +100,9 @@
                     <img class="position-absolute w-100 h-100" src="/img/carousel-2.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
-                            <h3 class="display-2 font-secondary text-white mb-4"><div class="i18nelement" data-i18n="home.text_2">Let The Sun Work For Your Home</div></h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="home.contact_href">Get A Quote</div></a>
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">FAMOUS ENERGY LIVE STREAM</h4>
+                            <h3 class="display-2 font-secondary text-white mb-4">Consultanta, proiectare, instalare si service dedicat</h3>
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Ofertare</a>
                         </div>
                     </div>
                 </div>
@@ -118,9 +111,9 @@
                     <img class="position-absolute w-100 h-100" src="/img/carousel-3.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="home.title">FAMOUS ENERGY LIVE STREAM</div></h4>
-                            <h3 class="display-2 font-secondary text-white mb-4"><div class="i18nelement" data-i18n="home.text_3">Let The Sun Work For Your Home</div></h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="home.contact_href">Get A Quote</div></a>
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">FAMOUS ENERGY LIVE STREAM</h4>
+                            <h3 class="display-2 font-secondary text-white mb-4">Inoveaza si investeste sustenabil in proiectele tale</h3>
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Ofertare</a>
                         </div>
                     </div>
                 </div>
@@ -148,10 +141,10 @@
                     <img class="img-fluid mb-4 mb-lg-0" src="/img/about.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="about.title">About Us</div></h6>
-                    <h1 class="display-4 mb-3"><span class="text-primary"><div class="i18nelement" data-i18n="about.sub_title_1">25+ Years Experience</div></span><div class="i18nelement" data-i18n="about.sub_title_2"> In Solar Power Industry</div></h1>
-                    <p class="i18nelement" data-i18n="about.description">At sed est eirmod sanctus et amet diam magna. Dolore clita magna sed sed stet et, at magna rebum eirmod sanctus ut sed, stet tempor dolore rebum sit duo, dolore tempor sit est sit sanctus, sit justo sit invidunt clita ut justo diam magna. Erat eos nonumy labore dolor. Dolore kasd no et et et elitr. Erat sea dolor elitr diam sed lorem rebum et vero. </p>
-                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#aboutUsModal"><div class="i18nelement" data-i18n="about.button">Read More</div></a>
+                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Despre noi</h6>
+                    <h1 class="display-4 mb-3"><span class="text-primary"><div>25+ Ani de Experienta</div></span><div> In proiectarea și dezvoltarea parcurilor fotovoltaice și eoliene</div></h1>
+                    <p>Echipa noastra are o experienta bogata in domeniu, gasind cele mai bune solutii pentru fiecare client. Misiunea noastra este de a oferi servicii de cea mai buna calitate clientilor nostri, fiind foarte atenti la cele mai mici detalii si acordand consultanta tehnica, proiectare si instalare profesioniste. Astfel, clientii nostri sunt multumiti de produsul si serviciile oferite de noi.</p>
+                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#aboutUsModal">Deschide</a>
                 </div>
             </div>
         </div>
@@ -163,8 +156,8 @@
     <div class="container-fluid py-5" id="service">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="service.title">Services</div></h6>
-                <h1 class="font-secondary display-4"><div class="i18nelement" data-i18n="service.sub_title">What We Cover</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Servicii</h6>
+                <h1 class="font-secondary display-4">Serviciile noastre</h1>
             </div>
             <div class="row">
 
@@ -177,7 +170,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_1">Solar System</div></h3>
+                            <h3 class="m-0">Consultanta/Proiectarea Parcuri Eoliene</h3>
                         </div>
                     </div>
                 </div>
@@ -190,7 +183,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_2">Wind Turbine</div></h3>
+                            <h3 class="m-0">Solutii Eoliene Industriale</h3>
                         </div>
                     </div>
                 </div>
@@ -203,7 +196,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_3">Wind Generator</div></h3>
+                            <h3 class="m-0">Solutii Eoliene Domestice</h3>
                         </div>
                     </div>
                 </div>
@@ -221,7 +214,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_4">Solar System</div></h3>
+                            <h3 class="m-0">Consultanta/Proiectarea Parcuri Fotovoltaice</h3>
                         </div>
                     </div>
                 </div>
@@ -234,7 +227,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_5">Wind Turbine</div></h3>
+                            <h3 class="m-0">Solutii Solare Industriale</h3>
                         </div>
                     </div>
                 </div>
@@ -247,7 +240,7 @@
                             </a>
                         </div>
                         <div class="bg-secondary text-center p-4">
-                            <h3 class="m-0"><div class="i18nelement" data-i18n="service.product_description_6">Wind Generator</div></h3>
+                            <h3 class="m-0">Solutii Solare Domestice</h3>
                         </div>
                     </div>
                 </div>
@@ -264,6 +257,72 @@
         </div>
         <div class="owl-carousel gallery-carousel">
             <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/invertoare-fotovoltaice/invertoare-fronius/invertor-ongrid-fronius-primo-3-0-1-wlan/fronius-primo.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/invertoare-fotovoltaice/invertoare-fronius/invertor-ongrid-fronius-primo-3-0-1-wlan/fronius-primo.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/acumulatori-eolieni-solari/acumulator-high-voltage-LiFePO4-battery-pack/battery-high-voltage.png" alt="">
+                <a class="btn btn-primary" href="/producs/acumulatori-eolieni-solari/acumulator-high-voltage-LiFePO4-battery-pack/battery-high-voltage.png" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/panouri-fotovoltaice/panou-fotovoltaic-monocristalin-455w-canadian-solar/cs3l-380ms.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/panouri-fotovoltaice/panou-fotovoltaic-monocristalin-455w-canadian-solar/cs3l-380ms.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/invertoare-fotovoltaice/invertoare-fronius/invertor-hibrid-fronius-primo-gen24-3-0-plus/fronius-primo-gen24.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/invertoare-fotovoltaice/invertoare-fronius/invertor-hibrid-fronius-primo-gen24-3-0-plus/fronius-primo-gen24.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/img/shop-4.jpeg" alt="">
+                <a class="btn btn-primary" href="/img/shop-4.jpeg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/acumulatori-eolieni-solari/acumulator-fotovoltaice-litiu-lifepo4-10-24kwh-hv-felicity-solar/1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/acumulatori-eolieni-solari/acumulator-fotovoltaice-litiu-lifepo4-10-24kwh-hv-felicity-solar/1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/kituri-fotvoltaice/invertor-6kw-acumulator-5-12kwh-panouri-5-6kwp/kit-fotovoltaic-hibrid-min.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/kituri-fotvoltaice/invertor-6kw-acumulator-5-12kwh-panouri-5-6kwp/kit-fotovoltaic-hibrid-min.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/acumulatori-eolieni-solari/acumulator-high-voltage-container/containerized_battery_energy_storage_system.png" alt="">
+                <a class="btn btn-primary" href="/producs/acumulatori-eolieni-solari/acumulator-high-voltage-container/containerized_battery_energy_storage_system.png" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/kituri-fotvoltaice/invertor-8kw-acumulator-5-12kwh-panouri-5-6kwp/kit-fotovoltaic-hibrid-min.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/kituri-fotvoltaice/invertor-8kw-acumulator-5-12kwh-panouri-5-6kwp/kit-fotovoltaic-hibrid-min.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/panouri-fotovoltaice/panou-fotovoltaic-monocristalin-455w-ja-solar-jam72s20-455-mr/JAM72S20-455MR-ja-solar-1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/panouri-fotovoltaice/panou-fotovoltaic-monocristalin-455w-ja-solar-jam72s20-455-mr/JAM72S20-455MR-ja-solar-1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="/producs/invertoare-fotovoltaice/invertoare-huawei/invertor-huawei-3kw-sun2000-3ktl-l1-monofazat/huawei_sun2000-2-6ktl-l1_1ph_2-mppt_solar-inverter_1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/invertoare-fotovoltaice/invertoare-huawei/invertor-huawei-3kw-sun2000-3ktl-l1-monofazat/huawei_sun2000-2-6ktl-l1_1ph_2-mppt_solar-inverter_1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
                 <img class="img-fluid w-100" src="/img/shop-1.jpeg" alt="">
                 <a class="btn btn-primary" href="/img/shop-1.jpeg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
@@ -276,87 +335,45 @@
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-3.jpeg" alt="">
-                <a class="btn btn-primary" href="/img/shop-3.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/ancora-tigla-ceramica-compatibila-k2-vario1/ancora-tigla-ceramica-compatibila-k2.png" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/ancora-tigla-ceramica-compatibila-k2-vario1/ancora-tigla-ceramica-compatibila-k2.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-4.jpeg" alt="">
-                <a class="btn btn-primary" href="/img/shop-4.jpeg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/clema-acoperis-tabla-faltuita-compatibila-k2/clema-falt-compatibil-k2jpg.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/clema-acoperis-tabla-faltuita-compatibila-k2/clema-falt-compatibil-k2jpg.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-5.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-5.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/clema-capat-panou-fotovoltaic-4-buc-set/11388-1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/clema-capat-panou-fotovoltaic-4-buc-set/11388-1.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-6.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-6.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/clema-capat-panouri-fotovoltaice-30-42mm-neagra-k2-2002589/2002589-750x750-1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/clema-capat-panouri-fotovoltaice-30-42mm-neagra-k2-2002589/2002589-750x750-1.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-7.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-7.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/sina-fixare-fotovoltaice-speedrail-22-5-5m-k2/k2_speedrail_solartech.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/sina-fixare-fotovoltaice-speedrail-22-5-5m-k2/k2_speedrail_solartech.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-8.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-8.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-9.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-9.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-10.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-10.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-11.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-11.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-12.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-12.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-13.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-13.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-14.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-14.png" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="/img/shop-15.png" alt="">
-                <a class="btn btn-primary" href="/img/shop-15.png" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="/producs/sisteme-de-prindere/surub-ancora-acoperis-tabla-m10x200-k2/k2_rafterbolt_alternergy_1.jpg" alt="">
+                <a class="btn btn-primary" href="/producs/sisteme-de-prindere/surub-ancora-acoperis-tabla-m10x200-k2/k2_rafterbolt_alternergy_1.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
         </div>
 
         <div class="col-md-12 text-center pt-3">
-            <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="service.html"><div class="i18nelement" data-i18n="gallery.button">-</div></a>
+            <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="/ro/service.html">Acceseaza magazinul</a>
         </div>
         
     </div>
@@ -463,67 +480,63 @@
     <div class="container-fluid py-5" id="faqs">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="faqs.title">-</div></h6>
-                <h1 class="display-4"><div class="i18nelement" data-i18n="faqs.sub_title">-</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Intrebari</h6>
+                <h1 class="display-4">Informatii utile</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <h3 class="mb-4">
-                            <div class="i18nelement" data-i18n="faqs.left_title">-</div>
-                        </h3>
+                        <h3 class="mb-4">De ce solutii eoliene sau solare?</h3>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_1">-</div>
+                            <div style="display: inline;">Costuri reduse de realizare pe termen lung</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_2">-</div>
+                            <div style="display: inline;">Energia verde este regenerabila si inepuizabila</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_3">-</div>
+                            <div style="display: inline;">Lipsa emisiilor de gaze cu efect de sera</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_4">-</div>
+                            <div style="display: inline;">Posibilitatea de a le monta oriunde</div>
                         </h5>
                         <h5 class="mb-0">
                             <i class="fa fa-check text-success float-md-right mr-2 mr-md-0 ml-md-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.left_5">-</div>
+                            <div style="display: inline;">Posibilitatea de a genera venituri</div>
                         </h5>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-left ml-md-3">
-                        <h3 class="mb-4">
-                            <div class="i18nelement" data-i18n="faqs.right_title">-</div>
-                        </h3>
+                        <h3 class="mb-4">De ce ne-ai alegi pe noi?</h3>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_1">-</div>
+                            <div style="display: inline;">Putem sa ne ocupam de proiectarea solutiei tale</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_2">-</div>
+                            <div style="display: inline;">Autorizare, avizare și întocmire documentatie tehnice</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_3">-</div>
+                            <div style="display: inline;">Consultanta pe toata durata proiectului</div>
                         </h5>
                         <h5 class="mb-3">
                             <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_4">-</div>
+                            <div style="display: inline;">Furnizam solutii complete eoliene sau solare</div>
                         </h5>
                         <h5 class="mb-0">
                             <i class="fa fa-check text-success mr-2"></i>
-                            <div style="display: inline;" class="i18nelement" data-i18n="faqs.right_3">-</div>
+                            <div style="display: inline;">Mentenanta si Garantie</div>
                         </h5>
                     </div>
                 </div>
                 
                 <div class="col-md-12 text-center pt-3">
-                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="#contact"><div class="i18nelement" data-i18n="faqs.button">-</div></a>
+                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll" href="#contact">Ofertare</a>
                 </div>
             </div>
         </div>
@@ -565,8 +578,8 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="contact.title">Contact</div></h6>
-                <h1 class="font-secondary display-4"><div class="i18nelement" data-i18n="contact.sub_title">Get In Touch</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Scrie-ne un mesaj si vei fi contactat in cel mai scurt timp</h6>
+                <h1 class="font-secondary display-4">Contacteaza-ne</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -592,7 +605,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton"><div class="i18nelement" data-i18n="contact.button">Send Message</div></button>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Trimite Mesajul</button>
                             </div>
                         </form>
                     </div>
@@ -610,20 +623,20 @@
                 <div class="row mb-5 p-4" style="background: rgba(256, 256, 256, .05);">
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.office_label">Our Office</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.office">Brasov, Romania</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Biroul nostru</h5>
+                            <p class="mb-4 m-md-0">Strada Fantanita cu Brad Nr. 4, Brasov</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.email_address_label">Email Us</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.email_address">FAMOUSENERGY@proton.me</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Email</h5>
+                            <p class="mb-4 m-md-0">FAMOUSENERGY@proton.me</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.phone_number_label">Call Us</div></h5>
-                            <p class="m-0"><div class="i18nelement" data-i18n="footer.phone_number">0720 999 999</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Telefon</h5>
+                            <p class="m-0">0757 133 018 / 0743 348 499</p>
                         </div>
                     </div>
                 </div>
@@ -631,7 +644,7 @@
             <div class="col-lg-7 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <p><div class="i18nelement" data-i18n="footer.left_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                        <p>Explorați gama noastră variată de produse si echipamente solare, de panouri, invertoare, acumulatori și accesorii, și începeți să vă transformați casa sau afacerea într-un loc alimentat de energia soarelui. La FAMOUS ENERGY LIVE STREAM suntem aici pentru a vă ghida în fiecare pas al procesului de tranziție către o sursă de energie verde și eficientă.</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> <!-- TODO -->
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- TODO -->
@@ -640,26 +653,26 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.products">Our Products</div></h5>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Produsele noastre</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_1">Product 1</div></a>
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_2">Product 2</div></a>
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_3">Product 3</div></a>
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_4">Product 4</div></a>
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_5">Product 5</div></a> 
-                            <a class="text-white btn-scroll mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_6">Product 4</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/invertoare-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Invertoare</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/panouri-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Panouri Fotovoltaice</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/acumulatori-eolieni-solari.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Acumulatori</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/sisteme-de-prindere.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Sisteme de Prindere</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/kituri-fotvoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Kituri fotovoltaice</div></a> 
+                            <a class="text-white btn-scroll mb-2" href="/ro/produse-speciale.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Produsele noastre speciale</div></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.newsletter">Newsletter</div></h5>
-                <p><div class="i18nelement" data-i18n="footer.right_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Tine legatura cu noi</h5>
+                <p>Bine ați venit la FAMOUS ENERGY LIVE STREAM - lasa-ne adresa ta de email pentru a deveni parteneri in tranformarea ta energetica.</p>
                 <div class="w-100">
                     <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Adresa de email">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4"><div class="i18nelement" data-i18n="footer.sign_up">Sign Up</div></button>
+                            <button class="btn btn-primary px-4">Trimite</button>
                         </div>
                     </div>
                 </div>
@@ -671,45 +684,18 @@
     </div>
     <!-- Footer End -->
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal.title">Solar Energy System</div></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="img-fluid mb-4" src="/img/carousel-1.jpg" alt="">
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                    <p><div class="i18nelement" data-i18n="modal.description">Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</div></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal -->
-
     <!-- About Us Modal -->
     <div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal.title">Despre compania noastra</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Despre compania noastra</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <img class="img-fluid mb-4" src="/img/carousel-1.jpg" alt="">
-                    <!--<p><div class="i18nelement" data-i18n="modal.description"></div></p>-->
                     <p><b>FAMOUS ENERGY LIVE STREAM</b></p>
 
                     <p style="text-indent: 30px;">Bine ați venit la FAMOUS ENERGY LIVE STREAM - partenerul dumneavoastră de încredere în 
@@ -796,7 +782,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal1.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Consultanta si Proiectarea Parcurilor Eoliene</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -851,7 +837,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal2.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Solutii Eoliene Industriale</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -893,7 +879,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal3.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Solutii Eoliene Domestice</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -927,7 +913,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal4.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Consultanta/Proiectarea Parcuri Fotovoltaice</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -980,7 +966,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal5.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Solutii Solare Industriale</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -1016,7 +1002,7 @@
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"><div class="i18nelement" data-i18n="modal6.title">Solar Energy System</div></h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Solutii Solare Domestice</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

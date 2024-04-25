@@ -33,6 +33,8 @@
 
     <!-- Explicitly for service.html page -->
     <link href="/css/shoppingCart.css" rel="stylesheet">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -126,8 +128,8 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;"><div class="i18nelement" data-i18n="contact.title">Contact</div></h6>
-                <h1 class="font-secondary display-4"><div class="i18nelement" data-i18n="contact.sub_title">Get In Touch</div></h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Scrie-ne un mesaj si vei fi contactat in cel mai scurt timp</h6>
+                <h1 class="font-secondary display-4">Contacteaza-ne</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -153,7 +155,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton"><div class="i18nelement" data-i18n="contact.button">Send Message</div></button>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Trimite Mesajul</button>
                             </div>
                         </form>
                     </div>
@@ -163,6 +165,7 @@
     </div>
     <!-- Contact End -->
 
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
@@ -170,20 +173,20 @@
                 <div class="row mb-5 p-4" style="background: rgba(256, 256, 256, .05);">
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.office_label">Our Office</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.office">Brasov, Romania</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Biroul nostru</h5>
+                            <p class="mb-4 m-md-0">Strada Fantanita cu Brad Nr. 4, Brasov</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.email_address_label">Email Us</div></h5>
-                            <p class="mb-4 m-md-0"><div class="i18nelement" data-i18n="footer.email_address">FAMOUSENERGY@proton.me</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Email</h5>
+                            <p class="mb-4 m-md-0">FAMOUSENERGY@proton.me</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.phone_number_label">Call Us</div></h5>
-                            <p class="m-0"><div class="i18nelement" data-i18n="footer.phone_number">0720 999 999</div></p>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Telefon</h5>
+                            <p class="m-0">0757 133 018 / 0743 348 499</p>
                         </div>
                     </div>
                 </div>
@@ -191,7 +194,7 @@
             <div class="col-lg-7 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <p><div class="i18nelement" data-i18n="footer.left_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                        <p>Explorați gama noastră variată de produse si echipamente solare, de panouri, invertoare, acumulatori și accesorii, și începeți să vă transformați casa sau afacerea într-un loc alimentat de energia soarelui. La FAMOUS ENERGY LIVE STREAM suntem aici pentru a vă ghida în fiecare pas al procesului de tranziție către o sursă de energie verde și eficientă.</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> <!-- TODO -->
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- TODO -->
@@ -200,32 +203,33 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.products">Our Products</div></h5>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Produsele noastre</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white btn-scroll mb-2" href="/index.html#service"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_1">Product 1</div></a>
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_2">Product 2</div></a>
-                            <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_3">Product 3</div></a>
-                            <!-- <a class="text-white btn-scroll mb-2" href="#service"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_4">Product 4</div></a>
-                            <a class="text-white btn-scroll" href="#service"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;" class="i18nelement" data-i18n="footer.product_5">Product 5</div></a> -->
+                            <a class="text-white btn-scroll mb-2" href="/ro/invertoare-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Invertoare</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/panouri-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Panouri Fotovoltaice</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/acumulatori-eolieni-solari.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Acumulatori</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/sisteme-de-prindere.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Sisteme de Prindere</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/ro/kituri-fotvoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Kituri fotovoltaice</div></a> 
+                            <a class="text-white btn-scroll mb-2" href="/ro/produse-speciale.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Produsele noastre speciale</div></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;"><div class="i18nelement" data-i18n="footer.newsletter">Newsletter</div></h5>
-                <p><div class="i18nelement" data-i18n="footer.right_text">Once upon a time there was a goat that had three kids. The big kid and the middle one are beaten for being naughty; and the youngest was industrious and good.</div></p>
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Tine legatura cu noi</h5>
+                <p>Bine ați venit la FAMOUS ENERGY LIVE STREAM - lasa-ne adresa ta de email pentru a deveni parteneri in tranformarea ta energetica.</p>
                 <div class="w-100">
                     <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Adresa de email">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4"><div class="i18nelement" data-i18n="footer.sign_up">Sign Up</div></button>
+                            <button class="btn btn-primary px-4">Trimite</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .05) !important;">
         <p class="m-0 text-white">&copy; <a href="#">FAMOUS ENERGY LIVE STREAM</a>. All Rights Reserved. Designed and maintained by codL</p>
     </div>

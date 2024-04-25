@@ -1,3 +1,14 @@
+function jsFunction(value) {
+  console.log("VALUE: " + value);
+  if (value == 'ro') {
+      console.log("RO");
+      location.replace("/ro/index.html")
+  } else {
+      console.log("EN");
+      location.replace("/en/index.html")
+  }
+}
+
 function updateContent() {
     const elements = document.getElementsByClassName("i18nelement");
     for (let i = 0; i < elements.length; i++) {
