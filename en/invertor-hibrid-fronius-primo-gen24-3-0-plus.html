@@ -47,32 +47,26 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="index.html#home" class="nav-item nav-link active"><div class="i18nelement" data-i18n="navbar.home">Home</div></a>
-                <a href="index.html#about" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.about">About</div></a>
-                <a href="index.html#service" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.service">Service</div></a>
-                <a href="index.html#project" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.project">Project</div></a>
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#project" class="nav-item nav-link">Product</a>
             </div>
-            <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
+            <a href="/index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
                 <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
                 <h1 class="display-5 text-white text-uppercase m-0">LIVE STREAM</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="index.html#faqs" class="nav-item nav-link i18nelement" data-i18n="navbar.faqs">FAQs</a>
-                <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
                 
-                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang">
+                <a href="#faqs" class="nav-item nav-link">FAQs</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                
+                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="jsFunction(this.value);">
                     <option value="en">En</option>
                     <option value="ro">Ro</option>
                 </select>
                 
-                <!-- <div class="menu--icons cart-icon">
-                    <div class="cart-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span>0</span>
-                    </div>
-                </div> -->
             </div>
-
         </div>
     </nav>
     <!-- Navbar End -->
@@ -123,12 +117,13 @@
         <a href="/en/invertoare-fotovoltaice.html" class="btn btn-primary font-weight-bold py-3 px-5 mt-4 btn-scroll">Inapoi</a>
     </div>
 
+
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Scrie-ne un mesaj si vei fi contactat in cel mai scurt timp</h6>
-                <h1 class="font-secondary display-4">Contacteaza-ne</h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Contact Us</h6>
+                <h1 class="font-secondary display-4">Get In Touch</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -137,24 +132,24 @@
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Nume" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" id="email" placeholder="Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="subject" placeholder="Subiectul" required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="6" id="message" placeholder="Mesajul tau" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Trimite Mesajul</button>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -172,19 +167,19 @@
                 <div class="row mb-5 p-4" style="background: rgba(256, 256, 256, .05);">
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Biroul nostru</h5>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Our Office</h5>
                             <p class="mb-4 m-md-0">Strada Fantanita cu Brad Nr. 4, Brasov</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Email</h5>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Email Us</h5>
                             <p class="mb-4 m-md-0">FAMOUSENERGY@proton.me</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="text-md-center">
-                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Telefon</h5>
+                            <h5 class="text-primary text-uppercase mb-2" style="letter-spacing: 5px;">Call Us</h5>
                             <p class="m-0">0757 133 018 / 0743 348 499</p>
                         </div>
                     </div>
@@ -193,7 +188,7 @@
             <div class="col-lg-7 col-md-12">
                 <div class="row">
                     <div class="col-md-6 mb-5">
-                        <p>Explorați gama noastră variată de produse si echipamente solare, de panouri, invertoare, acumulatori și accesorii, și începeți să vă transformați casa sau afacerea într-un loc alimentat de energia soarelui. La FAMOUS ENERGY LIVE STREAM suntem aici pentru a vă ghida în fiecare pas al procesului de tranziție către o sursă de energie verde și eficientă.</p>
+                        <p>Explore our wide range of solar products and equipment, panels, inverters, batteries and accessories, and start turning your home or business into a place powered by the sun. At FAMOUS ENERGY LIVE STREAM we are here to guide you through every step of the transition process to a green and efficient energy source.</p>
                         <div class="d-flex justify-content-start mt-4">
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> <!-- TODO -->
                             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- TODO -->
@@ -202,26 +197,26 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Produsele noastre</h5>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Products</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white btn-scroll mb-2" href="/en/invertoare-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Invertoare</div></a>
-                            <a class="text-white btn-scroll mb-2" href="/en/panouri-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Panouri Fotovoltaice</div></a>
-                            <a class="text-white btn-scroll mb-2" href="/en/acumulatori-eolieni-solari.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Acumulatori</div></a>
-                            <a class="text-white btn-scroll mb-2" href="/en/sisteme-de-prindere.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Sisteme de Prindere</div></a>
-                            <a class="text-white btn-scroll mb-2" href="/en/kituri-fotvoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Kituri fotovoltaice</div></a> 
-                            <a class="text-white btn-scroll mb-2" href="/en/produse-speciale.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Produsele noastre speciale</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/en/invertoare-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Inverters</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/en/panouri-fotovoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Photovoltaic panels</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/en/acumulatori-eolieni-solari.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Batteries</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/en/sisteme-de-prindere.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Mounting Systems</div></a>
+                            <a class="text-white btn-scroll mb-2" href="/en/kituri-fotvoltaice.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Photovoltaic kits</div></a> 
+                            <a class="text-white btn-scroll mb-2" href="/en/produse-speciale.html"><i class="fa fa-angle-right mr-2"></i><div style="display: inline;">Special products</div></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Tine legatura cu noi</h5>
-                <p>Bine ați venit la FAMOUS ENERGY LIVE STREAM - lasa-ne adresa ta de email pentru a deveni parteneri in tranformarea ta energetica.</p>
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
+                <p>Welcome to the FAMOUS ENERGY LIVE STREAM - leave us your email address to become partners in your energy transformation.</p>
                 <div class="w-100">
                     <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Adresa de email">
+                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Trimite</button>
+                            <button class="btn btn-primary px-4">Sign Up</button>
                         </div>
                     </div>
                 </div>
