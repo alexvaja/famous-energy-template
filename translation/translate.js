@@ -6,10 +6,10 @@ function jsFunction(value, path) {
 
   if (value == 'ro') {
       console.log("RO");
-      location.replace("/ro/" + page);
+      location.replace("../ro/" + page);
   } else {
       console.log("EN");
-      location.replace("/en/" + page);
+      location.replace("../en/" + page);
   }
 }
 
