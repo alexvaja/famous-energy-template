@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     
-    <title>RO Soare - Famous Energy Live Stream</title>
+    <title>EN Soare - Famous Energy Live Stream</title>
 
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
@@ -13,7 +13,7 @@
             and offer cosulting services for development of photofoltaics and wind turbines industrial parks">
     <meta name="keywords" content="Brasov, Romania, photovoltaic, wind turbine, industrial, domestic, consulting services, industrial parks">
     
-    <link href="img/climate_forecast_weather_summer_windy_wind_sun_icon_226621.ico" rel="icon">
+    <link href="/img/climate_forecast_weather_summer_windy_wind_sun_icon_226621.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -51,32 +51,26 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="index.html#home" class="nav-item nav-link active"><div class="i18nelement" data-i18n="navbar.home">Home</div></a>
-                <a href="index.html#about" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.about">About</div></a>
-                <a href="index.html#service" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.service">Service</div></a>
+                <a href="#home" class="nav-item nav-link active">Acasa</a>
+                <a href="#about" class="nav-item nav-link">Despre</a>
+                <a href="#service" class="nav-item nav-link">Servicii</a>
+                <a href="#project" class="nav-item nav-link">Produse</a>
             </div>
-            <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
+            <a href="/index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
                 <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
                 <h1 class="display-5 text-white text-uppercase m-0">LIVE STREAM</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="index.html#project" class="nav-item nav-link"><div class="i18nelement" data-i18n="navbar.project">Project</div></a>
-                <a href="index.html#faqs" class="nav-item nav-link i18nelement" data-i18n="navbar.faqs">FAQs</a>
-                <a href="#contact" class="nav-item nav-link i18nelement" data-i18n="navbar.contact">Contact</a>
                 
-                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang">
-                    <option value="ro">Ro</option>
+                <a href="#faqs" class="nav-item nav-link">Intrebari</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                
+                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="jsFunction(this.value, window.location.pathname);">
                     <option value="en">En</option>
+                    <option value="ro">Ro</option>
                 </select>
                 
-                <!-- <div class="menu--icons cart-icon">
-                    <div class="cart-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span>0</span>
-                    </div>
-                </div> -->
             </div>
-
         </div>
     </nav>
     <!-- Navbar End -->

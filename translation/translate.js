@@ -1,11 +1,15 @@
-function jsFunction(value) {
+function jsFunction(value, path) {
   console.log("VALUE: " + value);
+  
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+
   if (value == 'ro') {
       console.log("RO");
-      location.replace("/ro/index.html")
+      location.replace("/ro/" + page);
   } else {
       console.log("EN");
-      location.replace("/en/index.html")
+      location.replace("/en/" + page);
   }
 }
 
