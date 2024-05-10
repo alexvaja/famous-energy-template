@@ -11,4 +11,4 @@ function updateContent(value, path) {
       console.log("EN");
       location.replace("../en/" + page);
   }
-}
+} 
