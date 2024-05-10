@@ -14,7 +14,7 @@ $(function () {
             $this = $("#sendMessageButton");
             $this.prop("disabled", true);
 
-            var mailSubject = 'Email trimis automat din sectiunea Contact al famousenergy.ro';
+            var mailSubject = 'Email trimis automat din sectiunea Contact - famousenergy.ro';
             var mailBody = "<!DOCTYPE html>" + 
                             "<html>" +
                             "<head></head>" +
