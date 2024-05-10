@@ -1,4 +1,4 @@
-function jsFunction(value, path) {
+function updateContent(value, path) {
   console.log("VALUE: " + value);
   
   var path = window.location.pathname;
@@ -12,5 +12,3 @@ function jsFunction(value, path) {
       location.replace("../en/" + page);
   }
 }
-
-function updateContent() {}
