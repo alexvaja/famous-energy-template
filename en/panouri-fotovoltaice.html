@@ -325,7 +325,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form">
-                        <div id="success"></div>
+                        <div id="successContact"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
@@ -409,20 +409,25 @@
             <div class="col-lg-5 col-md-12 mb-5">
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
                 <p>Welcome to the FAMOUS ENERGY LIVE STREAM - leave us your email address to become partners in your energy transformation.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
+                <div class="contact-form">
+                    <div id="successNewsletter"></div>
+                    <form name="sentMessage" id="newsletterContactForm" novalidate="novalidate">
+                    <div class="w-100">
+                        <div class="input-group control-group">
+                            <input type="email" class="form-control border-light" id="newsletterEmail" style="padding: 30px;" placeholder="Your Email Address" data-validation-required-message="Please enter your email" >
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4" type="submit" id="newsletterButton">Sign Up</button>
+                            </div> 
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
     
     <div class="container-fluid bg-dark text-white text-center border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .05) !important;">
-        <p class="m-0 text-white">&copy; <a href="#">FAMOUS ENERGY LIVE STREAM</a>. All Rights Reserved. Designed and maintained by codL</p>
+        <p class="m-0 text-white">FAMOUS ENERGY LIVE STREAM. <a href="#"> SEO & Web Design by NaMuJa</a> - 2024</p>
     </div>
     <!-- Footer End -->
 

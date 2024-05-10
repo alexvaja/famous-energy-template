@@ -8,7 +8,6 @@ $(function () {
             event.preventDefault();
             var email = $("input#newsletterEmail").val();
 
-
             $this = $("#newsletterButton");
             $this.prop("disabled", true);
 
@@ -33,12 +32,12 @@ $(function () {
                 Body : mailBody
             }).then(
                 function () {
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    $('#successNewsletter').html("<div class='alert alert-success'>");
+                    $('#successNewsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
-                    $('#success > .alert-success')
+                    $('#successNewsletter > .alert-success')
                             .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
+                    $('#successNewsletter > .alert-success')
                             .append('</div>');
                     $('#contactForm').trigger("reset");
 
@@ -60,5 +59,5 @@ $(function () {
 });
 
 $('#name').focus(function () {
-    $('#success').html('');
+    $('#successNewsletter').html('');
 });
