@@ -18,16 +18,16 @@ $(function () {
                             "<body>" +
                             "Salutare, <br><br>" +
                             "Prin formularul de newsletter al site-ului famousenergy.ro v-a fost trimis: <br>" +
-                            "<strong>Email: " + email + "</strong><br>" +
+                            "<strong>Email: " + email + "</strong><br><br>" +
                             "Va rog sa luati legatura cu persoana care v-a comunicat datele de contact! <br><br>" + 
                             "<em>Echipa Famous Energy Live Stream </em><br><br>" +
                             "</body>" +
                             "</html>";
 
             Email.send({
-                SecureToken : "35e33990-6acd-43d7-aa7f-2837978cd7c3",
-                To : 'sanduteo96@gmail.com',
-                From : "sanduteo96@gmail.com",
+                SecureToken : "fe8c8173-07be-477a-93f1-7a328b94ec13",
+                To : 'contact@famousenergy.ro',
+                From : "contact@famousenergy.ro",
                 Subject : mailSubject,
                 Body : mailBody
             }).then(

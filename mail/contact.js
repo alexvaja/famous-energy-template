@@ -31,9 +31,9 @@ $(function () {
                             "</html>";
 
             Email.send({
-                SecureToken : "35e33990-6acd-43d7-aa7f-2837978cd7c3",
-                To : 'sanduteo96@gmail.com',
-                From : "sanduteo96@gmail.com",
+                SecureToken : "fe8c8173-07be-477a-93f1-7a328b94ec13",
+                To : 'contact@famousenergy.ro',
+                From : "contact@famousenergy.ro",
                 Subject : mailSubject,
                 Body : mailBody
             }).then(
