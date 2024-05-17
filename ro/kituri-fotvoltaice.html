@@ -503,16 +503,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12 mb-5">
+			<div class="col-lg-5 col-md-12 mb-5">
                 <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Tine legatura cu noi</h5>
                 <p>Bine ați venit la FAMOUS ENERGY LIVE STREAM - lasa-ne adresa ta de email pentru a deveni parteneri in tranformarea ta energetica.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Adresa de email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Trimite</button>
+                <div class="contact-form">
+                    <div id="successNewsletter"></div>
+                    <form name="sentMessage" id="newsletterContactForm" novalidate="novalidate">
+                    <div class="w-100">
+                        <div class="input-group control-group">
+                            <input type="email" class="form-control border-light" id="newsletterEmail" style="padding: 30px;" placeholder="Adresa de email" data-validation-required-message="Va rog completati campul cu adresa de email" >
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4" type="submit" id="newsletterButton">Trimite</button>
+                            </div> 
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
