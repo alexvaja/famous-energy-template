@@ -36,27 +36,28 @@
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="display-4 text-white text-uppercase m-0">Solar</h1>
+            <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
+            <h1 class="display-5 text-white text-uppercase m-0">LIVE STREAM</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="../index.html#home" class="nav-item nav-link active">Acasa</a>
-                <a href="../index.html#about" class="nav-item nav-link">Despre</a>
-                <a href="../index.html#service" class="nav-item nav-link">Servicii</a>
-                <a href="../index.html#project" class="nav-item nav-link">Produse</a>
+                <a href="#home" class="nav-item nav-link active">Acasa</a>
+                <a href="#about" class="nav-item nav-link">Despre</a>
+                <a href="#service" class="nav-item nav-link">Servicii</a>
+                <a href="l#project" class="nav-item nav-link">Produse</a>
             </div>
-            <a href="../index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
+            <a href="#" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
                 <h1 class="display-5 text-white text-uppercase m-0">FAMOUS ENERGY</h1>
                 <h1 class="display-5 text-white text-uppercase m-0">LIVE STREAM</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="../index.html#faqs" class="nav-item nav-link">Intrebari</a>
-                <a href="../index.html#contact" class="nav-item nav-link">Contact</a>
+                <a href="#faqs" class="nav-item nav-link">Intrebari</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
 
-                <select class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block" id="langSelector" name="lang" onchange="updateContent(this.value);">
+                <select class="navbar-brand bg-primary px-4 d-lg-block" id="langSelector" name="lang" onchange="updateContent(this.value);">
                     <option value="ro">Ro</option>
                     <option value="en">En</option>
                 </select>
@@ -72,6 +73,7 @@
     </nav>
     <!-- Navbar End -->
 
+    
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5 pb-5" id="home" name="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -190,11 +192,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
                 <div class="col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img">
@@ -239,6 +236,7 @@
     </div>
     <!-- Service End -->
     
+
     <!-- Product Gallery Start -->
     <div class="container-fluid bg-gallery" id="project" style="padding: 120px 0; margin: 90px 0;">
         <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
@@ -370,102 +368,6 @@
     <!-- Product Gallery End -->
 
 
-    <!-- Team Start -->
-    <!--<div class="container-fluid py-5" id="team">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Team</h6>
-                <h1 class="font-secondary display-4">Meet The Team</h1>
-            </div>
-            <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
-                <div class="col-lg-6 p-0">
-                    <div class="row m-0">
-                        <div class="col-sm-6 p-0 text-center">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">Donald John</h5>
-                                <p class="text-muted font-italic mb-2">CEO & Founder</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="../img/team-1.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-lg-end m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
-                <div class="col-lg-6 p-0">
-                    <div class="row m-0">
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="../img/team-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="col-sm-6 p-0 text-center">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">Adam Phillips</h5>
-                                <p class="text-muted font-italic mb-2">Engineer</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
-                <div class="col-lg-6 p-0">
-                    <div class="row m-0">
-                        <div class="col-sm-6 p-0 text-center">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">Thomas Olsen</h5>
-                                <p class="text-muted font-italic mb-2">Engineer</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="../img/team-3.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-lg-end m-0">
-                <div class="col-lg-6 p-0">
-                    <div class="row m-0">
-                        <div class="col-sm-6 p-0" style="min-height: 300px;">
-                            <img class="position-absolute w-100 h-100" src="../img/team-4.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="col-sm-6 p-0 text-center">
-                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
-                                <h5 class="mb-2">James Alien</h5>
-                                <p class="text-muted font-italic mb-2">Engineer</p>
-                                <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem</p>
-                                <div class="position-relative mb-2">
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- Team End -->
-
-
     <!-- FAQs Start -->
     <div class="container-fluid py-5" id="faqs">
         <div class="container py-5">
@@ -532,36 +434,6 @@
         </div>
     </div>
     <!-- FAQs End -->
-
-
-    <!-- Testimonial Start -->
-    <!--<div class="container-fluid py-5" id="testimonial">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Testimonial</h6>
-                <h1 class="display-4">Our Clients Say</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="text-center">
-                            <img class="img-fluid mx-auto mb-3" src="../img/testimonial-1.jpg" style="width: 100px;">
-                            <p style="font-size: 22px;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                            <h4>Client Name</h4>
-                            <span>Profession</span>
-                        </div>
-                        <div class="text-center">
-                            <img class="img-fluid mx-auto mb-3" src="../img/testimonial-2.jpg" style="width: 100px;">
-                            <p style="font-size: 22px;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                            <h4>Client Name</h4>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- Testimonial End -->
 
 
     <!-- Contact Start -->
