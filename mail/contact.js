@@ -41,6 +41,9 @@ $(function () {
                     $('#successContact').html("<div class='alert alert-success'>");
                     $('#successContact > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
+
+                    var path = window.location.pathname;
+                    console.debug(path);
                     $('#successContact > .alert-success')
                             .append("<strong>Your message has been sent. </strong>");
                     $('#successContact > .alert-success')
